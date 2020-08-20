@@ -1,43 +1,44 @@
-nav {
-    border: red 1px solid;
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    padding: 1%;
-    
+body {
+    margin: 0;
+}
+
+header {
+    margin: 1%;
 }
 
 nav ul {
-    margin: 10px auto;
-    border: yellow 1px solid;
-    
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: darkblue;
 }
 
 nav ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: green 1px solid;
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    width: 10%;
-    
+    border: orange 1px solid;
+    margin-right: 1px;
+    width: 20%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
-nav ul li a {
-    
-    border: black 1px solid;
+.currentPage {
+    background-color: #6699cc;
+}
+
+nav ul li:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    border: aqua 2px solid;
 }
 
 
-
-
-
-
-
-
-
+main ul {
+    margin: 30% 20% 5% 20%;
+}
 
 main ul li:first-child a:hover {
     color: lightblue;
@@ -52,6 +53,10 @@ main ul li:nth-child(2) a:active {
 
 main ul li:last-child a:visited {
     color: yellow;
+}
+
+textarea {
+    margin: 5% 20% auto 20%;
 }
 
 textarea:focus {
